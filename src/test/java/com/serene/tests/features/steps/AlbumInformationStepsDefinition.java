@@ -16,7 +16,7 @@ public class AlbumInformationStepsDefinition {
     @Before
     public void setup()
     {
-        RestAssured.baseURI = "http://172.17.228.107:9090";
+        RestAssured.baseURI = "http://docker.for.mac.localhost:9090";
 
     }
 
